@@ -1,0 +1,1339 @@
+{
+  "title": "D470 Transportation, Logistics, and Distribution Exam",
+  "theme": "WGU",
+  "sections": [
+    {
+      "title": "Section 1",
+      "questions": [
+        {
+          "id": 1,
+          "type": "multiple_choice",
+          "question": "What is a key element of logistics?",
+          "choices": [
+            "Warehousing",
+            "Manufacturing",
+            "Customer",
+            "Supplier"
+          ],
+          "answer": 0,
+          "explanation": "Warehousing is a key element of logistics because it involves storing goods efficiently until they are needed for distribution, helping balance supply with customer demand."
+        },
+        {
+          "id": 2,
+          "type": "multiple_choice",
+          "question": "How do logistics and supply chain management relate to one another?",
+          "choices": [
+            "Logistics and supply chain management are interchangeable terms.",
+            "Supply chain management is a subset of logistics and covers additional activities beyond logistics.",
+            "Logistics is a subset of supply chain management, which covers additional activities beyond logistics.",
+            "Logistics and supply chain management are independent from each other."
+          ],
+          "answer": 2,
+          "explanation": "Logistics focuses on the movement, storage, and flow of goods, while supply chain management includes logistics andother functions such as sourcing, procurement, production, and coordination across the entire supply network."
+        },
+        {
+          "id": 3,
+          "type": "multiple_choice",
+          "question": "Which distribution channel focuses on transactions and the nonphysical movement of goods?",
+          "choices": [
+            "Direct distribution",
+            "B2B",
+            "B2C",
+            "Trading"
+          ],
+          "answer": 3,
+          "explanation": "A trading channel is a nonphysical distribution channel focusing on transactions and the nonphysical movement of goods."
+        },
+        {
+          "id": 4,
+          "type": "multiple_choice",
+          "question": "Why do large companies tend to have proportionately lower logistics costs than smaller companies?",
+          "choices": [
+            "They have fewer customers to serve",
+            "They receive bulk discounts and achieve economies of scale",
+            "They avoid international shipping entirely",
+            "They outsource all logistics functions to third parties"
+          ],
+          "answer": 1,
+          "explanation": "Large companies can spread fixed logistics costs over more units, negotiate better rates with carriers, and operate more efficiently due to economies of scale, lowering their logistics costs as a percentage of sales."
+        },
+        {
+          "id": 5,
+          "type": "multiple_choice",
+          "question": "When making strategic decisions about logistics and distribution systems, why should the total system be considered rather than focusing on a single element or subsystem in isolation?",
+          "choices": [
+            "To ensure compliance with international trade regulations",
+            "To optimize overall efficiency and avoid unintended negative impacts on other parts of the system",
+            "To reduce the need for investment in technology",
+            "To prioritize one department’s performance over the rest of the organization"
+          ],
+          "answer": 1,
+          "explanation": "Considering the entire logistics and distribution system allows decision-makers to optimize efficiency and performance across all components. Focusing only on one element can create bottlenecks or inefficiencies elsewhere in the system."
+        },
+        {
+          "id": 6,
+          "type": "multiple_choice",
+          "question": "How is vehicle leasing advantageous to a vehicle operator?",
+          "choices": [
+            "The operator knows the fixed cost of a vehicle while having full use of the vehicle.",
+            "The operator can keep the vehicle as long as they want.",
+            "The operator can pay a self-determined amount to a leasing company during each period after signing a leasing agreement.",
+            "The operator gets to own the vehicle immediately after they sign a lease."
+          ],
+          "answer": 0,
+          "explanation": "The operator benefits from leasing include having known, fixed costs over a period of time while allowing the operator to use the vehicle without the financial burden of ownership."
+        },
+        {
+          "id": 7,
+          "type": "multiple_choice",
+          "question": "Which mode of transport involves moving goods in a single container or vehicle by successive modes of transport without directly handling the goods when changing modes?",
+          "choices": [
+            "Intermodal",
+            "Road Freight",
+            "Air",
+            "Maritime"
+          ],
+          "answer": 0,
+          "explanation": "Intermodal transport moves goods in the same container or vehicle across different modes—such as ship, rail, and truck—without unloading the goods when switching modes. This reduces handling, speeds transfer, and minimizes damage risk."
+        },
+        {
+          "id": 8,
+          "type": "multiple_choice",
+          "question": "Which mode of transport allows freight to be carried securely for very long distances in a short amount of time?",
+          "choices": [
+            "Intermodal",
+            "Maritime",
+            "Air",
+            "Road Freight"
+          ],
+          "answer": 2,
+          "explanation": "Air transport moves freight quickly over long distances, making it ideal for time-sensitive or high-value goods, though it is generally more expensive than other modes."
+        },
+        {
+          "id": 9,
+          "type": "multiple_choice",
+          "question": "Which of the following best represents the key considerations when selecting appropriate transport modes?",
+          "choices": [
+            "Seasonal demand, driver preferences, fuel subsidies, and government regulations",
+            "Operational factors, transport mode characteristics, consignment factors, and cost and service requirements",
+            "Packaging design, loading dock layout, weather patterns, and customs fees",
+            "Fleet ownership, marketing strategy, customer demographics, and advertising budget"
+          ],
+          "answer": 1,
+          "explanation": "When choosing a transport mode, decision-makers evaluate operational needs, the characteristics of each mode, the nature of the consignment, and the balance between cost and service to ensure efficiency and customer satisfaction."
+        },
+        {
+          "id": 10,
+          "type": "multiple_choice",
+          "question": "Which of the following best explains the role of railways in freight transport?",
+          "choices": [
+            "They are primarily used for short-distance delivery of perishable goods.",
+            "They play a key role in transporting intermodal containers as well as bulk freight.",
+            "They are mainly responsible for transporting passengers between major cities.",
+            "They are limited to transporting hazardous materials over short distances."
+          ],
+          "answer": 1,
+          "explanation": "Railways are essential for moving large volumes of goods, including bulk commodities like coal and grain, as well as intermodal containers that can be transferred between ships, trucks, and trains for efficient long-distance transport."
+        },
+        {
+          "id": 11,
+          "type": "multiple_choice",
+          "question": "Which product characteristic is addressed when using a drawbar trailer outfit to transport products?",
+          "choices": [
+            "High-risk products",
+            "Volume-to-weight ratio",
+            "Value-to-weight ratio",
+            "Substitutability"
+          ],
+          "answer": 1,
+          "explanation": "A drawbar trailer outfit allows for transporting larger volumes without exceeding weight limits, making it ideal for goods that take up a lot of space compared to their weight."
+        },
+        {
+          "id": 12,
+          "type": "multiple_choice",
+          "question": "Why is it helpful for businesses to have distribution centers and warehouses?",
+          "choices": [
+            "To facilitate products that do not require assembly",
+            "To hold inventory for products with very predictable demands and no seasonality",
+            "To hold inventory that is produced from extremely short production runs",
+            "To hold inventory and provide better customer service"
+          ],
+          "answer": 3,
+          "explanation": "Distribution centers and warehouses allow businesses to store products closer to customers, enabling faster delivery, reduced stockouts, and improved overall service quality."
+        },
+        {
+          "id": 13,
+          "type": "multiple_choice",
+          "question": "Which function provides internal source inputs to the sales and operation (S&OP) process?",
+          "choices": [
+            "Public relations",
+            "Finance",
+            "Research and development (R&D)",
+            "Human resources"
+          ],
+          "answer": 1,
+          "explanation": "In the Sales and Operations Planning (S&OP) process, finance provides internal data such as budget forecasts, revenue targets, and cost constraints. This information helps align sales plans with overall business objectives and financial realities."
+        },
+        {
+          "id": 14,
+          "type": "multiple_choice",
+          "question": "Which of the following correctly lists the four stages of the product life cycle in order?",
+          "choices": [
+            "Growth, Introductory, Maturity, Decline",
+            "Introductory, Growth, Maturity, Decline",
+            "Introductory, Maturity, Growth, Decline",
+            "Growth, Maturity, Introductory, Decline"
+          ],
+          "answer": 1,
+          "explanation": "The product life cycle describes the stages a product goes through from launch to withdrawal. It begins with the introductory stage, moves into growth as sales increase, reaches maturity when sales peak, and finally enters decline as demand decreases."
+        },
+        {
+          "id": 15,
+          "type": "multiple_choice",
+          "question": "How can logistics managers align with an organization’s overall corporate strategy?",
+          "choices": [
+            "By determining the color and style of the product’s packaging",
+            "By deciding the marketing slogans used in advertisements",
+            "By making decisions about how to market products through distribution and delivery methods",
+            "By setting the company’s overall annual sales targets"
+          ],
+          "answer": 2,
+          "explanation": "Logistics managers play a strategic role by aligning distribution, transportation, and delivery approaches with marketing goals. This ensures that products are available in the right place, at the right time, and in the right condition—supporting the company’s market positioning and customer satisfaction."
+        },
+        {
+          "id": 16,
+          "type": "multiple_choice",
+          "question": "Which type of logistics focuses on moving products from customers or destinations for disposal or to recapture the value?",
+          "choices": [
+            "Inbound Logistics",
+            "Outbound Logistics",
+            "Reverse Logistics",
+            "Third-Party Logistics"
+          ],
+          "answer": 2,
+          "explanation": "Reverse logistics manages the return flow of goods from customers or end points back to the manufacturer, distributor, or recycling facility to enable disposal, refurbishment, recycling, or value recovery."
+        },
+        {
+          "id": 17,
+          "type": "multiple_choice",
+          "question": "What is an example of an external environmental impact on society?",
+          "choices": [
+            "Noise level inside a manufacturing plant",
+            "A company’s procedures for handling and managing employees’ sick leave",
+            "Greenhouse gas emitted by a delivery truck",
+            "Hazardous material handling by company employees inside a factory."
+          ],
+          "answer": 2,
+          "explanation": "External environmental impacts on society are effects caused by activities outside an individual or organizations internal operations. Greenhouse gas emitted by a delivery truck effects the broader communitys health and environment, making it an external societal impact."
+        },
+        {
+          "id": 18,
+          "type": "multiple_choice",
+          "question": "What must a company do well to effectively manage heavy inbound logistics?",
+          "choices": [
+            "Select suppliers, manage distribution center, and aplan for a timely transportation",
+            "Repair, reevaluate, and recycle products",
+            "Emphasize facilities, reevaluate distribution, and seek to reduce delivery costs",
+            "Stow, bin-check, and pick products"
+          ],
+          "answer": 0,
+          "explanation": "To manage heavy inbound logistics effectively, a company must choose reliable suppliers, coordinate operations at distribution centers, and ensure transportation is scheduled to keep goods moving efficiently and on time."
+        },
+        {
+          "id": 19,
+          "type": "multiple_choice",
+          "question": "Which of the following best explains how slip sheets can improve transport efficiency compared to pallets?",
+          "choices": [
+            "They require less storage space and reduce shipping weight",
+            "They are made of wood and can carry heavier loads than pallets",
+            "They allow trucks to travel faster on highways",
+            "They eliminate the need for packaging materials"
+          ],
+          "answer": 0,
+          "explanation": "Slip sheets are thin sheets, often made of cardboard or plastic, that replace bulky wooden pallets. They take up less space, weigh less, and allow more goods to fit in a truck or container, improving transport efficiency and lowering shipping costs."
+        },
+        {
+          "id": 20,
+          "type": "multiple_choice",
+          "question": "Why are logistics managers increasingly pressured by customers and external stakeholders to reduce environmental impacts?",
+          "choices": [
+            "Because freight transport and warehousing have minimal effect on global greenhouse gas emissions",
+            "Because freight transport and warehousing significantly contribute to global greenhouse gas emissions",
+            "Because environmental impacts have no relation to supply chain operations",
+            "Because reducing environmental impacts always lowers operational costs"
+          ],
+          "answer": 1,
+          "explanation": "Freight transport and warehousing produce substantial greenhouse gas emissions, so customers and stakeholders are urging logistics managers to adopt greener practices to mitigate climate change."
+        },
+        {
+          "id": 21,
+          "type": "multiple_choice",
+          "question": "Which level of trade-off is used when making a trade-off between optimizing production run lengths and the associated warehousing costs of storing the finished product?",
+          "choices": [
+            "Between the company and external organizations",
+            "Between storage locations",
+            "Between company functions",
+            "Between logistics components"
+          ],
+          "answer": 2,
+          "explanation": "This trade-off occurs between different internal departments—such as manufacturing, which prefers longer production runs for efficiency, and warehousing, which must manage the cost of storing the extra inventory."
+        },
+        {
+          "id": 22,
+          "type": "multiple_choice",
+          "question": "Which type of distribution channel is used for sending physical industrial products from a manufacturer or supplier to a factory?",
+          "choices": [
+            "Business-to-business (B2B)",
+            "Trading",
+            "Transaction",
+            "Business-to-customer (B2C)"
+          ],
+          "answer": 0,
+          "explanation": "B2B distribution channels involve transactions between companies, such as when a manufacturer or supplier delivers physical industrial products directly to another business, like a factory, for production or operations."
+        },
+        {
+          "id": 23,
+          "type": "multiple_choice",
+          "question": "Which system can analyze every transaction and determine the most efficient shipping location?",
+          "choices": [
+            "Control towers",
+            "Distributed order management (DOM)",
+            "Crowdshipping",
+            "Blockchain"
+          ],
+          "answer": 1,
+          "explanation": "A Distributed Order Management system evaluates each transaction in real time and selects the most efficient fulfillment location based on factors like inventory availability, proximity to the customer, and shipping speed."
+        },
+        {
+          "id": 24,
+          "type": "multiple_choice",
+          "question": "Which transportation mode consists of the majority of the world’s international trade?",
+          "choices": [
+            "Rail",
+            "Air",
+            "Maritime",
+            "Road"
+          ],
+          "answer": 2,
+          "explanation": "Most global trade moves by sea because ships can carry large volumes of goods over long distances at a lower cost compared to other transport modes."
+        },
+        {
+          "id": 25,
+          "type": "multiple_choice",
+          "question": "90% of the world’s international trade is transported by sea. What is one advantage of air transport?",
+          "choices": [
+            "It has low security and safety restrictions",
+            "It enables long distance travel in a short amount of time.",
+            "It offers low unit costs.",
+            "It has fewer size and weight restrictions."
+          ],
+          "answer": 1,
+          "explanation": "Air transport is much faster than sea or land transport, making it ideal for moving goods or passengers quickly over long distances, especially when time is critical."
+        },
+        {
+          "id": 26,
+          "type": "multiple_choice",
+          "question": "Which component of the modal selection process involves understanding the product’s physical nature?",
+          "choices": [
+            "Cost and service requirements",
+            "Operational factors",
+            "Consignment factors",
+            "Transport mode characteristics"
+          ],
+          "answer": 2,
+          "explanation": "Consignment factors refer to the physical nature of the goods—such as size, weight, fragility, and packaging—which directly influence the most suitable transport mode."
+        },
+        {
+          "id": 27,
+          "type": "multiple_choice",
+          "question": "Which high-risk product would necessitate a specialized distribution system designed to contain and minimize the risk?",
+          "choices": [
+            "Newspapers",
+            "Dry-erase boards",
+            "Power strips",
+            "Desk lamps"
+          ],
+          "answer": 0,
+          "explanation": "Newspaper has a shelf-life and requires a specialized distribution system with an order management system to address the product’s relevance and expiration date."
+        },
+        {
+          "id": 28,
+          "type": "multiple_choice",
+          "question": "Which classification in a 4Vs system is impacted for a toy company that sells 100- and 250- piece jigsaw puzzles?",
+          "choices": [
+            "Variety",
+            "Volume",
+            "Visibility",
+            "Variability"
+          ],
+          "answer": 0,
+          "explanation": "In the 4Vs system (Volume, Variety, Variation in demand, Visibility), variety refers to the range of products or options a company offers. Selling both 100-piece and 250-piece jigsaw puzzles increases the range of product options, impacting the variety classification."
+        },
+        {
+          "id": 29,
+          "type": "multiple_choice",
+          "question": "Which product characteristic is a company addressing in its shipping process when the company ships a notepad to a customer using a padded envelope instead of a box?",
+          "choices": [
+            "Hazard",
+            "Size",
+            "Temperature regime",
+            "Bulk"
+          ],
+          "answer": 1,
+          "explanation": "Choosing a padded envelope instead of a box addresses the size of the product, ensuring the packaging is appropriately scaled to the item to reduce waste, shipping costs, and unnecessary bulk."
+        },
+        {
+          "id": 30,
+          "type": "multiple_choice",
+          "question": "What is an example of reverse logistics?",
+          "choices": [
+            "Warehouse inventory transfer",
+            "Customer fulfillment order",
+            "Recycling",
+            "Supplier raw material order"
+          ],
+          "answer": 2,
+          "explanation": "Reverse logistics involves moving goods from the customer back to the business or processing facilities, often for returns, repairs, or recycling. Recycling is a common example, as it returns used materials into the supply chain for reuse."
+        },
+        {
+          "id": 31,
+          "type": "multiple_choice",
+          "question": "Which activities do companies that are heavy in outbound logistics constantly perform?",
+          "choices": [
+            "Stowing, bin-checking, and picking products",
+            "Selecting suppliers, managing distribution centers, and planning for timely transportation",
+            "Repairing, reevaluating, and recycling products",
+            "Emphasizing facilities, reevaluating distribution, and seeking to reduce delivery costs"
+          ],
+          "answer": 3,
+          "explanation": "Companies with heavy outbound logistics focus on efficiently moving finished goods to customers. This involves optimizing facilities, reviewing distribution strategies, and lowering delivery costs to improve speed and profitability."
+        },
+        {
+          "id": 32,
+          "type": "multiple_choice",
+          "question": "What is an example of a governmental measure using financial grants and incentives to achieve commitment to reducing environmental impact?",
+          "choices": [
+            "Energy usage and carbon emission reporting from a manufacturing company",
+            "Control on pollution from factories or warehouses that may enter nearby watercourses",
+            "Road tax reductions and exemptions for electric vehicles",
+            "Restrictions or higher road taxes for high-polluting vehicles and trucks"
+          ],
+          "answer": 2,
+          "explanation": "Road tax reductions and exemptions for electric vehicles are examples of governmental measures to reduce environmental impact via financial grants and incentives."
+        }
+      ]
+    },
+    {
+      "title": "Section 2",
+      "questions": [
+        {
+          "id": 33,
+          "type": "multiple_choice",
+          "question": "Which cross-border documents confirm compliance with regulatory specifications?",
+          "choices": [
+            "Authorizations",
+            "Import licenses or permits",
+            "Certificates",
+            "Export licenses or permits"
+          ],
+          "answer": 2,
+          "explanation": "Certificates are documents that confirm compliance with regulatory specifications."
+        },
+        {
+          "id": 34,
+          "type": "multiple_choice",
+          "question": "Which are of protection on the World Trade Organization’s (WTO) list of permitted prohibitions and restrictions include copyrights?",
+          "choices": [
+            "Safety and security",
+            "National treasures possessing artistic, historical, and archaeological value",
+            "Health and life of humans, animals, and plants",
+            "Industrial and commercial intellectual property"
+          ],
+          "answer": 3,
+          "explanation": "The WTO permits restrictions to protect industrial and commercial intellectual property, which includes copyrights, patents, and trademarks, ensuring creators and businesses can safeguard their works and innovations."
+        },
+        {
+          "id": 35,
+          "type": "multiple_choice",
+          "question": "What is an example of a World Trade Organization (WTO) regulatory concern related to public policy?",
+          "choices": [
+            "Banned pesticides",
+            "Strategic export controls",
+            "Narcotics regulations",
+            "Trademarks"
+          ],
+          "answer": 1,
+          "explanation": "The WTO sometimes addresses concerns when member countries use measures like strategic export controls, which can restrict trade for reasons tied to public policy, security, or economic strategy. These controls must align with WTO rules to prevent them from becoming disguised trade barriers."
+        },
+        {
+          "id": 36,
+          "type": "multiple_choice",
+          "question": "Which concept from economic geography explains that lower transportation costs increase the area from which a business can attract customers?",
+          "choices": [
+            "Agglomeration economies",
+            "Market catchment",
+            "Comparative advantage",
+            "Economies of scale"
+          ],
+          "answer": 1,
+          "explanation": "In economic geography, market catchment refers to the geographic area from which a business can draw customers. Lower transportation costs expand this area, making goods accessible to more buyers."
+        },
+        {
+          "id": 37,
+          "type": "multiple_choice",
+          "question": "Which statement best describes cross-border logistics regulations?",
+          "choices": [
+            "They apply equally to all transportation modes and focus only on customs duties.",
+            "They are mode-specific and address factors such as vehicle safety, service supply limits, environmental impact, and transport security.",
+            "They focus solely on environmental concerns regardless of the mode of transport.",
+            "They regulate only passenger travel across borders."
+          ],
+          "answer": 1,
+          "explanation": "Cross-border logistics regulations vary by transport mode and cover safety standards, service supply restrictions, environmental protections, and security measures, ensuring safe and compliant international transport operations."
+        },
+        {
+          "id": 38,
+          "type": "multiple_choice",
+          "question": "Which institutional arrangement model integrates customs and taxes?",
+          "choices": [
+            "Revenue authority",
+            "Customs agency",
+            "Ministerial department",
+            "Border protection service"
+          ],
+          "answer": 0,
+          "explanation": "A revenue authority combines the functions of customs and tax administration under a single organization to streamline operations and improve efficiency."
+        },
+        {
+          "id": 39,
+          "type": "multiple_choice",
+          "question": "What serves as a blueprint for contemporary customs procedures?",
+          "choices": [
+            "The General Agreement on Tariffs and Trade (GATT)",
+            "The league of Nations’ International Convention",
+            "The World Customs Organization’s (WCO) Kyoto Convention",
+            "The treaty “concerning the creation of an international union for the publication of customs tariffs”"
+          ],
+          "answer": 2,
+          "explanation": "The World Customs Organization’s (WCO) Kyoto Convention outlines standardized customs procedures that many countries adopt as the framework for modernizing and harmonizing their customs practices."
+        },
+        {
+          "id": 40,
+          "type": "multiple_choice",
+          "question": "Which duty is outside of a customs and trade compliance manger’s responsibilities?",
+          "choices": [
+            "Confirming payment of the correct duty amount and obtaining the required proof of export",
+            "Deciding how to target customer groups, launch plans, and market products in each market",
+            "Providing support and cross-border-related trad and regulatory information to colleagues",
+            "Confirming the accurate, timely collation of import and export declarations so that goods clear through customs without delay"
+          ],
+          "answer": 1,
+          "explanation": "How to target customer groups, launch plans, and market products in each market is likely a marketing manager's duty, not a customs and trade compliance manager’s duty."
+        },
+        {
+          "id": 41,
+          "type": "multiple_choice",
+          "question": "Which task is part of the executive responsibilities of a customs officer?",
+          "choices": [
+            "Developing international trade policy",
+            "Conducting undercover investigations of smuggling rings",
+            "Processing customs declarations efficiently and effectively",
+            "Drafting new customs legislation"
+          ],
+          "answer": 2,
+          "explanation": "The executive role of a customs officer is operational, centering on tasks like processing customs declarations promptly and accurately to ensure smooth trade flow, rather than policy-making or legislative duties."
+        },
+        {
+          "id": 42,
+          "type": "multiple_choice",
+          "question": "Which of the following is an example of an indirect tax?",
+          "choices": [
+            "Income tax",
+            "Value-added tax (VAT)",
+            "Property tax",
+            "Inheritance tax"
+          ],
+          "answer": 1,
+          "explanation": "Indirect taxes are levied on goods and services rather than directly on income or wealth. VAT is an example because it is paid when purchasing products or services, whereas income, property, and inheritance taxes are direct taxes collected from individuals or entities."
+        },
+        {
+          "id": 43,
+          "type": "multiple_choice",
+          "question": "Which aspect of society is directly threatened by the import of counterfeit goods?",
+          "choices": [
+            "Commercial property",
+            "Health of animals and plants",
+            "Public security",
+            "National and international artifacts"
+          ],
+          "answer": 0,
+          "explanation": "Counterfeit goods infringe on trademarks and brand rights, directly threatening commercial property by undermining legitimate businesses and intellectual property protections."
+        },
+        {
+          "id": 44,
+          "type": "multiple_choice",
+          "question": "Which type of customs entity operates at a district level?",
+          "choices": [
+            "Land border posts",
+            "Port inspection facilities",
+            "Headquarters",
+            "Devolved units"
+          ],
+          "answer": 3,
+          "explanation": "Devolved units are local customs offices operating at a district level, handling inspections, clearances, and enforcement within their specific region."
+        },
+        {
+          "id": 45,
+          "type": "multiple_choice",
+          "question": "Which World Customs Organization (WCO) SAFE Framework of Standards pillar maintains that customs administrations work cooperatively in line with common standards to safeguard supply chain security without disrupting it?",
+          "choices": [
+            "Customs-to-customs cooperation",
+            "Customs-to-government cooperation",
+            "Customs-to-business cooperation",
+            "Customs-to-consumer cooperation"
+          ],
+          "answer": 0,
+          "explanation": "The Customs-to-Customs cooperation pillar of the WCO SAFE Framework promotes collaboration between customs administrations across countries, using shared standards to protect the global supply chain while minimizing trade disruptions."
+        },
+        {
+          "id": 46,
+          "type": "multiple_choice",
+          "question": "Which of the following best describes the single window concept in international trade?",
+          "choices": [
+            "A single government agency controls all imports and exports",
+            "Businesses can submit regulatory documents through one unified interface for all relevant agencies",
+            "All trade documentation must be processed manually at one location",
+            "A single customs officer handles all border inspections"
+          ],
+          "answer": 1,
+          "explanation": "The single window concept allows businesses to submit all trade-related documents to multiple government agencies through one centralized, often electronic, interface, improving efficiency and reducing delays."
+        },
+        {
+          "id": 47,
+          "type": "multiple_choice",
+          "question": "Which of the following elements are part of a supply chain network configuration?",
+          "choices": [
+            "Costs, flow of goods, responsiveness to customer needs",
+            "Costs, product marketing, customer surveys",
+            "Transportation methods, advertising, supplier contracts",
+            "Inventory size, packaging design, sales promotions"
+          ],
+          "answer": 0,
+          "explanation": "A supply chain network configuration focuses on balancing cost efficiency, the movement of goods through the supply chain, and the ability to meet customer needs quickly and effectively."
+        },
+        {
+          "id": 48,
+          "type": "multiple_choice",
+          "question": "What is the implication of the world Trade Organization’s (WTO) most-favored-nation (MFN principle for the multilateral trading system?",
+          "choices": [
+            "Countries are free to trade with any other countries without restrictions.",
+            "With some exceptions, countries cannot normally discriminate between their trading partners.",
+            "The WTO can selectively set import tariffs to protect certain industries in each country from international competition.",
+            "Countries must treat imported and locally produced goods equally after the goods enter the market."
+          ],
+          "answer": 1,
+          "explanation": "Under the WTO’s Most-Favored-Nation (MFN) principle, members must generally give all other members the same trade advantages, such as low tariffs or favorable import rules, ensuring non-discrimination between trading partners."
+        },
+        {
+          "id": 49,
+          "type": "multiple_choice",
+          "question": "Which part is responsible for holding cross-border good in temporary storage until cleared by the authorities?",
+          "choices": [
+            "Terminal Operators",
+            "Banks",
+            "Customs brokers",
+            "Shipping companies"
+          ],
+          "answer": 0,
+          "explanation": "Terminal operators hold goods in temporary storage until authorities clear the goods for delivery or distribution."
+        },
+        {
+          "id": 50,
+          "type": "multiple_choice",
+          "question": "Which cross-border regulation should a country impose if it wants to manage market and consumer protections?",
+          "choices": [
+            "Antidumping and countervailing measures designed to offset the advantages of unfairly priced imported goods",
+            "Phytosanitary controls that apply to products from the soil",
+            "Intervention to stop hidden cross-border traffic",
+            "Product labeling requirements, including product descriptions and ingredient details"
+          ],
+          "answer": 3,
+          "explanation": "Product labeling requirements ensure that consumers receive accurate information about goods, such as descriptions and ingredient details, helping maintain safety, transparency, and trust in the marketplace. This supports market regulation and consumer protection in cross-border trade."
+        },
+        {
+          "id": 51,
+          "type": "multiple_choice",
+          "question": "Which work responsibility is outside a customs agency’s scope of work?",
+          "choices": [
+            "Wage earners’ well-being",
+            "Society’s protection",
+            "Trade facilitation",
+            "Revenue collection"
+          ],
+          "answer": 0,
+          "explanation": "Customs agencies focus on border security, trade facilitation, and revenue collection. Ensuring wage earners’ well-being is typically the role of labor departments, not customs authorities."
+        },
+        {
+          "id": 52,
+          "type": "multiple_choice",
+          "question": "Which institutional arrangement model is responsible for both customs administration and immigration services?",
+          "choices": [
+            "Ministerial department",
+            "Revenue authority",
+            "Border protection service",
+            "Customs agency"
+          ],
+          "answer": 2,
+          "explanation": "A border protection service manages both customs administration, which oversees the flow of goods, and immigration services, which regulate the movement of people across borders."
+        },
+        {
+          "id": 53,
+          "type": "multiple_choice",
+          "question": "Which situation would prompt a country to levy countervailing duties?",
+          "choices": [
+            "Foreign companies export goods at prices significantly below fair value, limiting domestic businesses’ abilities to compete.",
+            "Foreign companies benefit from unfair subsidies, disabling domestic businesses’ abilities to compete.",
+            "Foreign companies import significant amounts of goods, causing local businesses to lose significant sales opportunities.",
+            "Foreign companies produce goods that domestic manufacturers are unable to provide sufficiently."
+          ],
+          "answer": 1,
+          "explanation": "A country may impose countervailing duties when foreign producers receive unfair government subsidies, giving them an artificial competitive advantage that harms domestic industries."
+        },
+        {
+          "id": 54,
+          "type": "multiple_choice",
+          "question": "What is an example of direct taxes?",
+          "choices": [
+            "Value-added taxes",
+            "Income taxes",
+            "Excise taxes",
+            "Sales taxes"
+          ],
+          "answer": 1,
+          "explanation": "Income taxes are a form of direct tax because they are paid directly by individuals or organizations to the government based on income earned, without being passed on to another party."
+        },
+        {
+          "id": 55,
+          "type": "multiple_choice",
+          "question": "Which responsibility is outside the scope of the duties of a customs and trade compliance manager?",
+          "choices": [
+            "Auditing and checking the work and performance of appointed customs representatives on behalf of a company",
+            "Determining and forecasting sales for each product",
+            "Ensuring that corrupt border officials abroad do not receive illegal payments",
+            "Supporting procurement decisions by informing colleagues about the scale of import duries and taxes"
+          ],
+          "answer": 1,
+          "explanation": "Forecasting sales for products is a marketing or sales function, not part of a customs and trade compliance manager’s role, which focuses on regulatory compliance, customs procedures, and import/export controls."
+        },
+        {
+          "id": 56,
+          "type": "multiple_choice",
+          "question": "Which aspect of society is directly threatened by an adverse climate for international trade investment?",
+          "choices": [
+            "National and international artifacts",
+            "Health and life of humans",
+            "National income",
+            "Public security"
+          ],
+          "answer": 2,
+          "explanation": "An unfavorable climate for international trade and investment can reduce exports, foreign investment, and overall economic activity, leading to a decline in a country's national income."
+        },
+        {
+          "id": 57,
+          "type": "multiple_choice",
+          "question": "Which pillar support the World Customs Organization’s (WCO) Framework of Standards?",
+          "choices": [
+            "Business-to-customer cooperation",
+            "Customs-to-business cooperation",
+            "Business-to-government cooperation",
+            "Government-to-customs cooperation"
+          ],
+          "answer": 2,
+          "explanation": "The WCO’s Framework of Standards is built on the customs-to-customs and customs-to-business pillars, with business-to-government cooperation being a key aspect of ensuring secure and efficient global trade."
+        },
+        {
+          "id": 58,
+          "type": "multiple_choice",
+          "question": "Why must shippers provide advance manifests before cross-border shipments arrive at their destinations?",
+          "choices": [
+            "To notify local logistics companies to prepare appropriate domestic freight transportation",
+            "To reserve sufficient storage space at the arrival port",
+            "To inform customers of shipments’ locations while in transit",
+            "To enable customs to assess cargo risks"
+          ],
+          "answer": 3,
+          "explanation": "Shippers must provide advance manifests so customs authorities can review shipment details before arrival, allowing them to assess potential risks, target inspections, and ensure compliance with import regulations."
+        },
+        {
+          "id": 59,
+          "type": "multiple_choice",
+          "question": "What must a business show to customs to qualify for preferential treatment?",
+          "choices": [
+            "That safety and security provision are in place",
+            "That a business relies on its own logistics service",
+            "That the end customer’s relationship with customs is favorable",
+            "That imported good are not liable for taxes or duties"
+          ],
+          "answer": 3,
+          "explanation": "To receive preferential treatment, a business must prove that its imported goods meet the conditions of a trade agreement and are exempt from certain taxes or duties."
+        }
+      ]
+    },
+    {
+      "title": "Section 3",
+      "questions": [
+        {
+          "id": 60,
+          "type": "multiple_choice",
+          "question": "Which type of stock held in the distribution chain is for eventual transfer to the final customer?",
+          "choices": [
+            "In-process",
+            "Finished",
+            "Pipeline",
+            "Component"
+          ],
+          "answer": 2,
+          "explanation": "Pipeline stock refers to goods that are in transit within the distribution chain, moving toward their final destination for delivery to the customer."
+        },
+        {
+          "id": 61,
+          "type": "multiple_choice",
+          "question": "Which principal element of inventory holding costs refers to stock management and insurance costs?",
+          "choices": [
+            "Risk cost",
+            "Capital financing cost",
+            "Service cost",
+            "Storage cost"
+          ],
+          "answer": 2,
+          "explanation": "Service cost refers to expenses related to managing inventory, such as administration, handling, and insurance, ensuring stock is properly maintained until it is transferred."
+        },
+        {
+          "id": 62,
+          "type": "multiple_choice",
+          "question": "How is the square root law used in inventory planning?",
+          "choices": [
+            "To determine the production quantity that yields the least supply chain cost",
+            "To classify inventory into a fast-moving category",
+            "To estimate inventory reduction resulting from a distribution center reduction project",
+            "To forecast demand when no numerical demand data is available"
+          ],
+          "answer": 2,
+          "explanation": "The square root law in inventory planning estimates how total inventory changes when the number of stocking locations changes. Reducing distribution centers can lower total inventory, and the law helps quantify that reduction."
+        },
+        {
+          "id": 63,
+          "type": "multiple_choice",
+          "question": "Which method is a systematic, broad business approach that translates a business operation’s strategic mission into tangible objectives and measures?",
+          "choices": [
+            "Operational approach",
+            "Balanced scorecard",
+            "Integrated supply chain",
+            "The supply chain operations reference (SCOR) model"
+          ],
+          "answer": 1,
+          "explanation": "The balanced scorecard is a strategic management tool that links a company’s mission and vision to measurable objectives across key areas like finance, customer service, internal processes, and learning and growth, providing a systematic way to track performance."
+        },
+        {
+          "id": 64,
+          "type": "multiple_choice",
+          "question": "Which measurement on a balanced scorecard includes product market share?",
+          "choices": [
+            "Innovation",
+            "Internal process",
+            "Customer",
+            "Financial"
+          ],
+          "answer": 3,
+          "explanation": "The Customer perspective of a balanced scorecard includes metrics such as market share, customer satisfaction, and retention, as it reflects how well the organization is serving and attracting its target market."
+        },
+        {
+          "id": 65,
+          "type": "multiple_choice",
+          "question": "What is the main difference between commercial and humanitarian supply chains?",
+          "choices": [
+            "Speed of response to demand",
+            "Delivery of diverse products and services",
+            "Objective to make a profit",
+            "Adherence to legal and ethical frameworks"
+          ],
+          "answer": 2,
+          "explanation": "Commercial supply chains focus on generating profit for businesses, while humanitarian supply chains aim to provide aid and relief, often prioritizing speed and need over financial gain."
+        },
+        {
+          "id": 66,
+          "type": "multiple_choice",
+          "question": "Which outsourced performance management technique involves separating the contract from the rest of the client’s business activity?",
+          "choices": [
+            "Self-funding projects",
+            "Profit sharing",
+            "Subsidiary reporting",
+            "Competitive benchmarking"
+          ],
+          "answer": 2,
+          "explanation": "Subsidiary reporting involves creating a separate entity or division to handle an outsourced contract, keeping it distinct from the client’s core business operations for clearer accountability and performance tracking."
+        },
+        {
+          "id": 67,
+          "type": "multiple_choice",
+          "question": "Which benefits a manufacturer that uses a third-party logistics (3PL) company for outsourcing logistics?",
+          "choices": [
+            "Increasing cultural compatibility between contractors and customers",
+            "Focusing on the company’s core competencies",
+            "Guaranteeing brand integrity",
+            "Maintaining confidentiality of information"
+          ],
+          "answer": 1,
+          "explanation": "Using a 3PL allows a manufacturer to outsource logistics functions, freeing resources and attention to concentrate on what the company does best, such as product design, production, and innovation."
+        },
+        {
+          "id": 68,
+          "type": "multiple_choice",
+          "question": "Which total cost of ownership (TCO) analysis stage includes customs duties?",
+          "choices": [
+            "Acquisition",
+            "Purchase",
+            "Usage",
+            "End-of-life"
+          ],
+          "answer": 0,
+          "explanation": "In a Total Cost of Ownership (TCO) analysis, customs duties are part of the acquisition stage because they are costs incurred when obtaining and importing goods before they are put into use."
+        },
+        {
+          "id": 69,
+          "type": "multiple_choice",
+          "question": "Which type of inventory stock covers unpredictable daily or weekly fluctuations in demand?",
+          "choices": [
+            "Cycle",
+            "Safety",
+            "Seasonal",
+            "Speculative"
+          ],
+          "answer": 1,
+          "explanation": "Safety stock is extra inventory kept on hand to protect against unpredictable short-term fluctuations in demand or supply delays, ensuring orders can still be fulfilled."
+        },
+        {
+          "id": 70,
+          "type": "multiple_choice",
+          "question": "“Which cost component of inventory holding costs is the largest?",
+          "choices": [
+            "Out-of-stock risk",
+            "Capital financing",
+            "Service level",
+            "Inventory storage"
+          ],
+          "answer": 1,
+          "explanation": "Capital financing is typically the largest component of inventory holding costs because it reflects the cost of money tied up in inventory instead of being used for other investments or operations."
+        },
+        {
+          "id": 71,
+          "type": "multiple_choice",
+          "question": "What is a disadvantage of low stock levels?",
+          "choices": [
+            "High ordering costs",
+            "High risk of product deterioration",
+            "Large financing capital cost requirements",
+            "High inventory storage expenses"
+          ],
+          "answer": 0,
+          "explanation": "Low stock levels mean inventory runs out more quickly, requiring frequent reordering. This increases ordering costs and can disrupt supply if orders are delayed."
+        },
+        {
+          "id": 72,
+          "type": "multiple_choice",
+          "question": "Low stock levels lead to more frequent orders and high ordering costs. What is the meaning of lead-time gap?",
+          "choices": [
+            "The difference between the logistics lead time and the customer’s order cycle time",
+            "The difference between a customer’s order cycle time and order fulfillment time",
+            "The difference between the time or procurement and time of order delivery",
+            "The difference between procurement lead time and distribution lead time"
+          ],
+          "answer": 0,
+          "explanation": "The lead-time gap measures the mismatch between how long customers are willing to wait for delivery (order cycle time) and the total logistics lead time, highlighting the pressure to reduce delays."
+        },
+        {
+          "id": 73,
+          "type": "multiple_choice",
+          "question": "Which management method supports cost and performance monitoring?",
+          "choices": [
+            "Operational approach",
+            "Supply chain operations reference (SCOR) model",
+            "Integrated supply chain",
+            "Balanced scorecard"
+          ],
+          "answer": 1,
+          "explanation": "The SCOR model provides a standardized framework for analyzing, monitoring, and improving supply chain performance, enabling organizations to track both costs and operational efficiency."
+        },
+        {
+          "id": 74,
+          "type": "multiple_choice",
+          "question": "Which performance measurement approach identifies and accounts for the specific characteristics of a customer’s ordering, storage, and delivery requirements?",
+          "choices": [
+            "Budget",
+            "Direct product profitability",
+            "Activity-based costing",
+            "External standard"
+          ],
+          "answer": 2,
+          "explanation": "Activity-based costing (ABC) tracks costs by specific activities—such as ordering, storage, and delivery—so companies can accurately measure performance and profitability based on each customer’s unique service requirements."
+        },
+        {
+          "id": 75,
+          "type": "multiple_choice",
+          "question": "What is the key characteristic of final mile transportation?",
+          "choices": [
+            "Distribution or transfer of products between warehouses",
+            "Distribution of products with goals to expand globally",
+            "Distribution of products to the customers",
+            "Distribution of products form the origin source to manufacturers and distributors"
+          ],
+          "answer": 2,
+          "explanation": "Final mile transportation refers to the last stage of the delivery process, moving goods from a transportation hub or warehouse directly to the end customer. It focuses on speed, accuracy, and customer satisfaction."
+        },
+        {
+          "id": 76,
+          "type": "multiple_choice",
+          "question": "Which humanitarian sector performance measurement uses results from how well the field operations staff estimated what was required to meet the needs of an emergency?",
+          "choices": [
+            "Assessment accuracy",
+            "Donation-to-delivery time",
+            "Appeal coverage",
+            "Financial efficiency"
+          ],
+          "answer": 0,
+          "explanation": "Assessment accuracy measures how well the field staff’s initial estimates matched the actual needs during an emergency, reflecting the quality of their needs assessment process."
+        },
+        {
+          "id": 77,
+          "type": "multiple_choice",
+          "question": "What is an advantage of a multiuser distribution operation?",
+          "choices": [
+            "Specialized equipment and delivery vehicles",
+            "Staff loyalty to the organization",
+            "Confidentiality of promotional activity",
+            "Higher deliver frequency from load consolidation"
+          ],
+          "answer": 3,
+          "explanation": "A multiuser distribution operation combines shipments from multiple customers, allowing for load consolidation. This increases delivery frequency while reducing transportation costs"
+        },
+        {
+          "id": 78,
+          "type": "multiple_choice",
+          "question": "Which metric can monitor an outsourced company’s ability to manage stock levels and avoid stockouts of recommended products?",
+          "choices": [
+            "Order fill rate",
+            "Total cost per case delivered",
+            "Number of safety incidents",
+            "Product breakages"
+          ],
+          "answer": 0,
+          "explanation": "Order fill rate measures how well an outsourced company fulfills customer orders without shortages, making it a key indicator of their ability to manage stock levels and avoid stockouts."
+        },
+        {
+          "id": 79,
+          "type": "multiple_choice",
+          "question": "Which outsourcing management stage includes open-book audits?",
+          "choices": [
+            "Identifying opportunities",
+            "Reviewing and refining",
+            "Establishing key performance indicators (KPIs)",
+            "Tracking performance"
+          ],
+          "answer": 3,
+          "explanation": "Open-book audits occur during the tracking performance stage to verify costs, monitor compliance, and ensure transparency between the outsourcing provider and the client."
+        },
+        {
+          "id": 80,
+          "type": "multiple_choice",
+          "question": "Which total cost of ownership (TCO) analysis category includes repair parts?",
+          "choices": [
+            "Usage costs",
+            "Purchase prices",
+            "End-of-life costs",
+            "Acquisition costs"
+          ],
+          "answer": 0,
+          "explanation": "Repair parts are considered usage costs because they are part of the ongoing expenses required to operate and maintain an asset over its lifespan."
+        }
+      ]
+    },
+    {
+      "title": "Section 4",
+      "questions": [
+        {
+          "id": 81,
+          "type": "multiple_choice",
+          "question": "What is a cross-dock center’s purpose?",
+          "choices": [
+            "To hold critical parts in case of equipment breakdown within a warehouse",
+            "To assemble the final products, involving activities such as kitting and labeling",
+            "To transfer goods directly form the incoming to the outgoing vehicles",
+            "To process or store goods that have reached end-of-life stage of a product’s lifecycle"
+          ],
+          "answer": 2,
+          "explanation": "A cross-dock center’s purpose is to transfer goods directly from inbound to outbound transportation with little or no storage time, streamlining the supply chain and reducing handling costs."
+        },
+        {
+          "id": 82,
+          "type": "multiple_choice",
+          "question": "What part of warehousing logistics involves retrieving the correct quantity of goods from the warehouse in time to meet the required service level?",
+          "choices": [
+            "Order picking",
+            "Revers storage",
+            "Receiving",
+            "Dispatch"
+          ],
+          "answer": 0,
+          "explanation": "Order picking is the process of selecting and retrieving the correct items and quantities from warehouse storage to fulfill customer orders on time, ensuring service level requirements are met."
+        },
+        {
+          "id": 83,
+          "type": "multiple_choice",
+          "question": "A warehouse received twice as many raw material units as ordereWhich warehouse area should a warehouse employee send the products to?",
+          "choices": [
+            "Overage",
+            "Storage",
+            "Shipping",
+            "Receiving"
+          ],
+          "answer": 0,
+          "explanation": "Overage areas are designated for handling items received in excess of the ordered quantity so they can be reviewed, documented, and processed appropriately."
+        },
+        {
+          "id": 84,
+          "type": "multiple_choice",
+          "question": "Which type of picking allows for picking all units ordered for each item at once and sorting them into each order at the end?",
+          "choices": [
+            "Pick-to-order",
+            "Pick-by-line",
+            "Batch pick",
+            "Pick-to-zero"
+          ],
+          "answer": 2,
+          "explanation": "Batch picking involves collecting all quantities of a specific item for multiple orders in one pass, then sorting them into individual orders afterwarThis reduces travel time compared to picking each order separately."
+        },
+        {
+          "id": 85,
+          "type": "multiple_choice",
+          "question": "Which term is an example of a management factor that influences pick rates?",
+          "choices": [
+            "Product location height",
+            "Item size",
+            "Technology aid",
+            "Workload balancing"
+          ],
+          "answer": 3,
+          "explanation": "Workload balancing is a management factor that affects pick rates because it ensures labor and tasks are evenly distributed, preventing bottlenecks and improving overall efficiency."
+        },
+        {
+          "id": 86,
+          "type": "multiple_choice",
+          "question": "Which activity uses a yard management system (YMS)?",
+          "choices": [
+            "Resolving issues with product quality or damages",
+            "Deciding on locations to retrieve inventory on orders",
+            "Recording receipt of products",
+            "Determining which trailer to bring to the dock doors"
+          ],
+          "answer": 3,
+          "explanation": "A Yard Management System (YMS) helps coordinate the movement of trailers and trucks within a facility’s yard, including scheduling and directing which trailer should be brought to dock doors for loading or unloading."
+        },
+        {
+          "id": 87,
+          "type": "multiple_choice",
+          "question": "What is an example of a joint indicator for warehouse performance?",
+          "choices": [
+            "Equipment uptime",
+            "On-time-in-full",
+            "Pick rate",
+            "Order cycle time"
+          ],
+          "answer": 1,
+          "explanation": "On-time-in-full is a joint indicator metric that combines measures of timely deliveries and order fills."
+        },
+        {
+          "id": 88,
+          "type": "multiple_choice",
+          "question": "Which product requires a warehouse with special design features?",
+          "choices": [
+            "Measuring tape",
+            "Hand tools",
+            "Faucets",
+            "Paint"
+          ],
+          "answer": 3,
+          "explanation": "Paint is hazardous and requires a safe and prefabricated chemical storage building."
+        },
+        {
+          "id": 89,
+          "type": "multiple_choice",
+          "question": "What is an example of a metric related to resource utilization?",
+          "choices": [
+            "Percentage of locations with correct stock",
+            "Conformance to budget",
+            "Number of standard hours worked",
+            "Order fill accuracy"
+          ],
+          "answer": 2,
+          "explanation": "This measures how efficiently labor resources are used by tracking the standard hours worked compared to expected or available hours. It’s a direct metric of resource utilization."
+        },
+        {
+          "id": 90,
+          "type": "multiple_choice",
+          "question": "A company’s equipment frequently breaks down and requires repairs. For this reason, it intentionally sets up a decoupling node in its network to hold critical repair parts. Which warehouse type should the company use to address the expected frequent equipment breakdowns and repairs?",
+          "choices": [
+            "Assembly facility",
+            "Consolidation center",
+            "Inventory holding point",
+            "Cross-dock center"
+          ],
+          "answer": 2,
+          "explanation": "An inventory holding point stores essential spare parts or materials to ensure quick access during equipment breakdowns, minimizing downtime and keeping operations running smoothly."
+        },
+        {
+          "id": 91,
+          "type": "multiple_choice",
+          "question": "Which palletized storage system enables a strict first in, first out (FIFO) approach?",
+          "choices": [
+            "Drive-in and drive-through racking",
+            "Block stacking",
+            "Adjustable pallet racking",
+            "Push-back racking"
+          ],
+          "answer": 2,
+          "explanation": "Adjustable pallet racking allows easy access to each pallet position, making it well-suited for a strict FIFO approach since the oldest inventory can be retrieved first."
+        },
+        {
+          "id": 92,
+          "type": "multiple_choice",
+          "question": "Which equipment is suitable for handling long loads?",
+          "choices": [
+            "Multidirectional truck",
+            "Flow rack",
+            "Drawer unit",
+            "Vertical carousel"
+          ],
+          "answer": 0,
+          "explanation": "A multidirectional truck can turn its front wheels, allowing it to act as a side loader for long loads."
+        },
+        {
+          "id": 93,
+          "type": "multiple_choice",
+          "question": "What is the most common warehouse measurement metric associated with customer satisfaction?",
+          "choices": [
+            "Fill rate",
+            "Safety incident",
+            "Productivity",
+            "Overage"
+          ],
+          "answer": 0,
+          "explanation": "Fill rate is the most common warehouse metric linked to customer satisfaction because it measures the percentage of customer orders that are fulfilled in full and on time, directly impacting order accuracy and delivery reliability."
+        },
+        {
+          "id": 94,
+          "type": "multiple_choice",
+          "question": "Which factor determines the timing of the waves in wave picking?",
+          "choices": [
+            "Outgoing vehicle schedule",
+            "Incoming vehicle schedule",
+            "Number of customer orders",
+            "Number of employees"
+          ],
+          "answer": 0,
+          "explanation": "In wave picking, the timing of each wave is typically set to match the departure schedule of outbound shipments so orders are ready when vehicles arrive for loading."
+        },
+        {
+          "id": 95,
+          "type": "multiple_choice",
+          "question": "What is a benefit of using geofencing in a distribution center’s yard?",
+          "choices": [
+            "Identifying when vehicles move across a boundary to a specific yard area",
+            "Physically preventing unauthorized vehicles from entering a yard",
+            "Gaining an aerial view of an enclosed area in a yard and distribution center",
+            "Providing the exact location of a vehicle or container inside an enclosed area"
+          ],
+          "answer": 0,
+          "explanation": "Geofencing uses virtual boundaries to trigger alerts when vehicles enter or leave designated zones, improving tracking and operational efficiency in a distribution center’s yard."
+        },
+        {
+          "id": 96,
+          "type": "multiple_choice",
+          "question": "Which solutionhelps balance an order picker’s workload between zones in zone picking?",
+          "choices": [
+            "Establishing fixed boundaries between the different zones",
+            "Passing the receptacle from on zone to another",
+            "Passing the order whenever pickers meet in the next zone",
+            "Allocating fast-moving items to a given zone"
+          ],
+          "answer": 2,
+          "explanation": "Passing the order whenever pickers meet in the next zone, rather than at a fixed point, helps balance the workloads between different pick zones."
+        },
+        {
+          "id": 97,
+          "type": "multiple_choice",
+          "question": "What is a continuous order release for picking driven by optimization software based on the workloads of various warehouse processes?",
+          "choices": [
+            "Pick-to-order",
+            "Waveless picking",
+            "Zone picking",
+            "Batch picking"
+          ],
+          "answer": 1,
+          "explanation": "Waveless picking is a method where orders are continuously released for fulfillment based on real-time optimization software that balances workloads across different warehouse processes, improving efficiency and reducing idle time compared to traditional wave-based systems."
+        },
+        {
+          "id": 98,
+          "type": "multiple_choice",
+          "question": "Which system facilitates employees’ workload planning at a warehouse?",
+          "choices": [
+            "Labor management system (LMS)",
+            "Warehouse management system (WMS)",
+            "Yard management system (YMS)",
+            "Automated storage and retrieval system (AS/RS)"
+          ],
+          "answer": 0,
+          "explanation": "A Labor Management System (LMS) tracks employee productivity, schedules tasks, and helps supervisors plan workloads efficiently in a warehouse environment."
+        },
+        {
+          "id": 99,
+          "type": "multiple_choice",
+          "question": "Which metric is related to the service level?",
+          "choices": [
+            "Number of cases picked per labor hour",
+            "Stock turn",
+            "Percentage of orders dispatched on time",
+            "Labor cost per case throughput"
+          ],
+          "answer": 2,
+          "explanation": "Service level measures how effectively customer expectations are met, and the percentage of orders dispatched on time is a key indicator of timely, reliable order fulfillment."
+        },
+        {
+          "id": 100,
+          "type": "multiple_choice",
+          "question": "Which management system focuses on medium-term planning?",
+          "choices": [
+            "Distributed order management (DOM)",
+            "Warehouse management system (WMS)",
+            "Yard management system (YMS)",
+            "Labor management system (LMS)"
+          ],
+          "answer": 0,
+          "explanation": "A Distributed Order Management (DOM) system coordinates order fulfillment across multiple locations and sales channels, focusing on medium-term planning to optimize inventory allocation and delivery strategies."
+        },
+        {
+          "id": 101,
+          "type": "multiple_choice",
+          "question": "Which shareholder expectation factor impacts warehousing decisions?",
+          "choices": [
+            "Supply chain strategy",
+            "Corporate objectives",
+            "Industry trend",
+            "D.Customer service levels"
+          ],
+          "answer": 1,
+          "explanation": "Corporate objectives reflect shareholder expectations for profitability, growth, and efficiency, which directly influence strategic warehousing decisions such as location, capacity, and technology investments."
+        }
+      ]
+    }
+  ]
+}
