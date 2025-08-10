@@ -19,13 +19,17 @@
   <div class="container">
     <h1 id="quizTitle">Loading...</h1>
 
+    <!-- Section navigation (one section visible at a time) -->
     <div class="nav-buttons" id="sectionNav"></div>
 
-    <div id="sectionsContainer"></div>
+    <!-- Single-section viewport -->
+    <div id="sectionViewport"></div>
 
     <div class="nav-buttons" style="margin-top:16px;">
-      <button class="btn" id="submitBtn">Submit & View Summary</button>
+      <button class="btn" id="prevSectionBtn" disabled>Previous Section</button>
+      <button class="btn" id="nextSectionBtn" disabled>Next Section</button>
       <button class="btn light" id="retakeBtn">Retake Exam</button>
+      <button class="btn" id="submitBtn">Submit & View Summary</button>
     </div>
 
     <div id="summaryContainer" class="summary" style="display:none;"></div>

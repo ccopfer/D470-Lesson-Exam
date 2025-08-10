@@ -1,18 +1,10 @@
 
-/**
- * WGU-themed GitHub Exam
- * - 4 sections (one per sheet)
- * - Randomizes questions within each section only
- * - Progress bar shows score and percentage (always visible)
- * - Per-question feedback with explanations, locks answers
- * - Navigation buttons and scroll-to-top
- * - Summary with export (CSV) and exam results (questions & answers)
- */
+// Single-section viewport exam (sections do not appear on the same page)
 const state = {
   data: null,
-  sectionOrder: [],
-  answers: {}, // key: question id, value: {selected, correctIdx, isCorrect, sectionIdx}
+  answers: {}, // qid -> {selected, correctIdx, isCorrect, sectionIdx, explanation}
   totals: { correct: 0, total: 0 },
+  currentSection: 0
 };
 
 function shuffleInPlace(arr) {
@@ -23,7 +15,6 @@ function shuffleInPlace(arr) {
   return arr;
 }
 
-// Randomize questions within each section only
 function randomizedSections(sections) {
   return sections.map(sec => {
     const cloned = JSON.parse(JSON.stringify(sec));
@@ -42,8 +33,7 @@ function updateProgress() {
 function onAnswerSelect(qId, choiceIdx) {
   const rec = state.answers[qId];
   if (!rec) return;
-  // If already answered, don't allow changes
-  if (typeof rec.selected === "number") return;
+  if (typeof rec.selected === "number") return; // lock after first choose
 
   rec.selected = choiceIdx;
   rec.isCorrect = (choiceIdx === rec.correctIdx);
@@ -53,23 +43,18 @@ function onAnswerSelect(qId, choiceIdx) {
   const radios = document.querySelectorAll(`input[name="q_${qId}"]`);
   radios.forEach(r => r.disabled = true);
 
-  // Show feedback
+  // Feedback
   const container = document.getElementById(`q_${qId}_feedback`);
   if (container) {
     const correctness = rec.isCorrect ? "correct" : "incorrect";
     const msg = rec.isCorrect ? "Correct!" : "Incorrect";
     container.innerHTML = `<div class="feedback ${correctness}">${msg}</div>`;
+    const ansText = document.getElementById(`q_${qId}_choice_${rec.correctIdx}`).textContent.trim();
     if (!rec.isCorrect) {
-      const ansText = document.getElementById(`q_${qId}_choice_${rec.correctIdx}`).textContent.trim();
-      const expl = (rec.explanation || "").trim();
-      const explanationBlock = expl ? `<div class="correct-answer"><strong>Explanation:</strong> ${expl}</div>` : "";
-      container.innerHTML += `<div class="correct-answer"><strong>Correct answer:</strong> ${ansText}</div>${explanationBlock}`;
-    } else {
-      const expl = (rec.explanation || "").trim();
-      if (expl) {
-        container.innerHTML += `<div class="correct-answer"><strong>Explanation:</strong> ${expl}</div>`;
-      }
+      container.innerHTML += `<div class="correct-answer"><strong>Correct answer:</strong> ${ansText}</div>`;
     }
+    const expl = (rec.explanation || "").trim();
+    if (expl) container.innerHTML += `<div class="correct-answer"><strong>Explanation:</strong> ${expl}</div>`;
   }
 
   updateProgress();
@@ -79,7 +64,7 @@ function buildQuestionEl(q, sectionIdx) {
   const wrap = document.createElement("div");
   wrap.className = "question";
   const qId = q.id;
-  state.answers[qId] = {
+  state.answers[qId] = state.answers[qId] || {
     selected: null,
     correctIdx: q.answer,
     isCorrect: false,
@@ -106,6 +91,12 @@ function buildQuestionEl(q, sectionIdx) {
     input.value = idx;
     input.addEventListener("change", () => onAnswerSelect(qId, idx));
 
+    // If already answered (navigating back), reflect state
+    if (typeof state.answers[qId].selected === "number") {
+      input.disabled = true;
+      if (state.answers[qId].selected === idx) input.checked = true;
+    }
+
     label.appendChild(input);
     label.appendChild(document.createTextNode(" " + choice));
     choicesDiv.appendChild(label);
@@ -115,61 +106,60 @@ function buildQuestionEl(q, sectionIdx) {
 
   const feedback = document.createElement("div");
   feedback.id = `q_${qId}_feedback`;
+  // If already answered, rehydrate feedback
+  const rec = state.answers[qId];
+  if (typeof rec.selected === "number") {
+    const correctness = rec.isCorrect ? "correct" : "incorrect";
+    const msg = rec.isCorrect ? "Correct!" : "Incorrect";
+    feedback.innerHTML = `<div class="feedback ${correctness}">${msg}</div>`;
+    const ansText = q.choices[rec.correctIdx];
+    if (!rec.isCorrect) {
+      feedback.innerHTML += `<div class="correct-answer"><strong>Correct answer:</strong> ${ansText}</div>`;
+    }
+    const expl = (rec.explanation || "").trim();
+    if (expl) feedback.innerHTML += `<div class="correct-answer"><strong>Explanation:</strong> ${expl}</div>`;
+  }
   wrap.appendChild(feedback);
 
   return wrap;
 }
 
-function buildSection(sec, idx) {
+function renderSection(index) {
+  state.currentSection = index;
+  const vp = document.getElementById("sectionViewport");
+  vp.innerHTML = "";
+
+  const sec = state.data.sections[index];
   const card = document.createElement("div");
   card.className = "section-card";
-  card.id = `section_${idx}`;
 
   const header = document.createElement("div");
   header.className = "section-header";
-
   const title = document.createElement("h2");
   title.textContent = sec.title;
   header.appendChild(title);
-
-  const navBtns = document.createElement("div");
-  navBtns.className = "nav-buttons";
 
   const toTop = document.createElement("button");
   toTop.className = "btn light";
   toTop.textContent = "Top";
   toTop.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
-  navBtns.appendChild(toTop);
 
-  // Previous section
-  if (idx > 0) {
-    const prev = document.createElement("button");
-    prev.className = "btn secondary";
-    prev.textContent = "Previous Section";
-    prev.addEventListener("click", () => {
-      document.getElementById(`section_${idx-1}`).scrollIntoView({ behavior: "smooth" });
-    });
-    navBtns.appendChild(prev);
-  }
-  // Next section
-  if (idx < state.data.sections.length - 1) {
-    const next = document.createElement("button");
-    next.className = "btn";
-    next.textContent = "Next Section";
-    next.addEventListener("click", () => {
-      document.getElementById(`section_${idx+1}`).scrollIntoView({ behavior: "smooth" });
-    });
-    navBtns.appendChild(next);
-  }
+  const headerBtns = document.createElement("div");
+  headerBtns.className = "nav-buttons";
+  headerBtns.appendChild(toTop);
 
-  header.appendChild(navBtns);
+  header.appendChild(headerBtns);
   card.appendChild(header);
 
-  sec.questions.forEach(q => {
-    card.appendChild(buildQuestionEl(q, idx));
-  });
+  sec.questions.forEach(q => card.appendChild(buildQuestionEl(q, index)));
 
-  return card;
+  vp.appendChild(card);
+
+  // Update prev/next button states
+  document.getElementById("prevSectionBtn").disabled = (index === 0);
+  document.getElementById("nextSectionBtn").disabled = (index === state.data.sections.length - 1);
+
+  window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
 function buildSectionNav(sections) {
@@ -179,9 +169,7 @@ function buildSectionNav(sections) {
     const b = document.createElement("button");
     b.className = "btn light";
     b.textContent = sec.title;
-    b.addEventListener("click", () => {
-      document.getElementById(`section_${idx}`).scrollIntoView({ behavior: "smooth" });
-    });
+    b.addEventListener("click", () => renderSection(idx));
     nav.appendChild(b);
   });
 }
@@ -211,9 +199,8 @@ function renderSummary() {
       <tbody>
   `;
 
-  // Build a map of question id -> text choices for quick lookup
   const qIndex = {};
-  state.data.sections.forEach((sec, sIdx) => {
+  state.data.sections.forEach((sec) => {
     sec.questions.forEach(q => { qIndex[q.id] = { q, secTitle: sec.title }; });
   });
 
@@ -248,7 +235,6 @@ function renderSummary() {
 }
 
 function exportCsv() {
-  // Build CSV
   const rows = [["Section","Question","Your Answer","Correct Answer","Result","Explanation"]];
   const qIndex = {};
   state.data.sections.forEach((sec) => {
@@ -279,7 +265,7 @@ function exportCsv() {
 function setupScrollTop() {
   const btn = document.getElementById("scrollTopBtn");
   window.addEventListener("scroll", () => {
-    if (window.scrollY > 300) btn.style.display = "block"; else btn.style.display = "none";
+    btn.style.display = window.scrollY > 300 ? "block" : "none";
   });
   btn.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
 }
@@ -289,28 +275,30 @@ async function init() {
   const res = await fetch("quiz-data.json");
   const data = await res.json();
   document.getElementById("quizTitle").textContent = data.title || "Exam";
-  // Randomize questions per section only
   const randomized = randomizedSections(data.sections || []);
   state.data = { ...data, sections: randomized };
 
-  // Build totals (total questions)
+  // Totals
   state.totals.total = randomized.reduce((acc, sec) => acc + (sec.questions?.length || 0), 0);
   state.totals.correct = 0;
   updateProgress();
 
+  // Build nav and first section
   buildSectionNav(randomized);
+  renderSection(0);
 
-  const container = document.getElementById("sectionsContainer");
-  container.innerHTML = "";
-  randomized.forEach((sec, idx) => {
-    container.appendChild(buildSection(sec, idx));
+  // Prev / Next behavior
+  const prevBtn = document.getElementById("prevSectionBtn");
+  const nextBtn = document.getElementById("nextSectionBtn");
+  prevBtn.addEventListener("click", () => {
+    if (state.currentSection > 0) renderSection(state.currentSection - 1);
+  });
+  nextBtn.addEventListener("click", () => {
+    if (state.currentSection < state.data.sections.length - 1) renderSection(state.currentSection + 1);
   });
 
+  document.getElementById("retakeBtn").addEventListener("click", () => window.location.reload());
   document.getElementById("submitBtn").addEventListener("click", renderSummary);
-  document.getElementById("retakeBtn").addEventListener("click", () => {
-    // Simple retake: reload to re-randomize
-    window.location.reload();
-  });
 }
 
 document.addEventListener("DOMContentLoaded", init);
